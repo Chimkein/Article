@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/Login/images/galaxi.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.lgcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 425px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    gap: 20px; 
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.lgcont h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.lgint input,
+.psint input {
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.lgint input::placeholder,
+.psint input::placeholder {
+    color: rgba(29, 28, 28, 0.6);
+}
+
+.lgcont .lgbtn {
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.lgcont .lgbtn:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.lgcont .rem-for {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    width: 100%;
+    padding: 0 27.5px;
+    margin-top: -10px;
+}
+
+.rem-for label {
+    margin-right: 10px;
+}
+
+.rem-for a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rem-for a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.reglink {
+    font-size: 15px;
+}
+
+.reglink a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.reglink a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}

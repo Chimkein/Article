@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/Login/images/galaxi.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.smolcont{
+    padding: 20px 50px 20px;
+    margin-top:  20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .2);
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.smolcont .lgbtn{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    outline: none;
+    border-radius: 20px;
+}
+
+.smolcont .rgbtn:hover{
+    background: rgba(0, 0, 0, .2);
+}
+
+.smolcont .lgbtn:hover{
+    background: rgba(0, 0, 0, .2);
+}
+
+.smolcont .rgbtn{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    outline: none;
+    border-radius: 20px;
+}
+
+.logbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.logbtn label{
+    width: 300px;
+    height: 30px;
+}
+
+.rgbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.lrgbtn label{
+    width: 300px;
+    height: 30px;
+}
+
+
